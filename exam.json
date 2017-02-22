@@ -1,0 +1,42 @@
+{
+    "id": "https://navdtmstest.servicebus.windows.net/activequeue",
+    "title": "activequeue",
+    "published": 1487095221000,
+    "updated": 1487095221000,
+    "author": "../activequeue",
+    "link": "navdtmstest",
+    "queueDescription": {
+      "lockDuration": "PT30S",
+      "maxSizeInMegabytes": 16384,
+      "sizeInBytes": 0,
+      "messageCount": 0,
+      "requiresDuplicateDetection": false,
+      "requiresSession": false,
+      "deadLetteringOnMessageExpiration": false,
+      "enableBatchedOperations": true,
+      "defaultMessageTimeToLive": "P14D",
+      "duplicateDetectionHistoryTimeWindow": "PT10M",
+      "maxDeliveryCount": 10
+    }
+  },
+  {
+    "id": "https://navdtmstest.servicebus.windows.net/samplequeue",
+    "title": "samplequeue",
+    "published": 1487107727000,
+    "updated": 1487107727000,
+    "author": "../samplequeue",
+    "link": "navdtmstest",
+    "queueDescription": {
+      "lockDuration": "PT1M",
+      "maxSizeInMegabytes": 1024,
+      "sizeInBytes": 517,
+      "messageCount": 3,
+      "requiresDuplicateDetection": false,
+      "requiresSession": false,
+      "deadLetteringOnMessageExpiration": false,
+      "enableBatchedOperations": true,
+      "defaultMessageTimeToLive": "P10675199DT2H48M5.4775807S",
+      "duplicateDetectionHistoryTimeWindow": "PT10M",
+      "maxDeliveryCount": 10
+    }
+  }
